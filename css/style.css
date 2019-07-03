@@ -68,21 +68,21 @@ p {
 }
 /* showcase */
 #showcase {
-  background: #333 url("../img/pic2.jpg") no -repeat center center/cover;
+  background: #333 url("../img/background.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
 #showcase .showcase-content {
   display: flex;
-  flext-direction: column;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
   height: 100%;
   padding: 0 2 rem;
-}
-/* overlay */
-position: absolute;
-top: 60px;
-left: 0;
-background-color: rgba(0, 0, 0, 2);
+  /* overlay */
+  position: absolute;
+  top: 60px;
+  left: 0;
+  
+
