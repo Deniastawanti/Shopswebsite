@@ -21,7 +21,7 @@ p {
   color: #93cb52;
 }
 .l-heading {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 0, 75rem;
   line-height: 1.1;
 }
@@ -39,6 +39,10 @@ p {
 }
 .btn:hover {
   background: #7ab436;
+}
+.btn-dark {
+  background: #333;
+  color: #fff;
 }
 
 /* navbar */
