@@ -84,5 +84,5 @@ p {
   position: absolute;
   top: 60px;
   left: 0;
-  
-
+  background-color: #333 (0, 0, 0, 5);
+}
