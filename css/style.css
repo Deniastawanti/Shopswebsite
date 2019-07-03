@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  line-height: 1.4;
 }
 a {
   text-decoration: none;
@@ -19,13 +20,33 @@ p {
 .text-primary {
   color: #93cb52;
 }
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0, 75rem;
+  line-height: 1.1;
+}
+.lead {
+  font-size: 1.3 rem;
+  margin-bottom: 2 rem;
+}
+.btn {
+  display: inline-block;
+  background: #93cb52;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #7ab436;
+}
 
 /* navbar */
 #navbar {
   display: flex;
   position: sticky;
   top: 0;
-  background: #333333;
+  background: #333;
   color: #fff;
   justify-content: space-between;
   z-index: 1;
@@ -54,4 +75,14 @@ p {
 #showcase .showcase-content {
   display: flex;
   flext-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2 rem;
 }
+/* overlay */
+position: absolute;
+top: 60px;
+left: 0;
+background-color: rgba(0, 0, 0, 2);
