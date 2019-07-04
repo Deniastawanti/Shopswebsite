@@ -87,7 +87,10 @@ p {
   background: #333;
   color: #fff;
 }
-
+.bg-primay {
+  background: #93cb52;
+  color: #fff;
+}
 /* navbar */
 #navbar {
   display: flex;
@@ -157,4 +160,25 @@ p {
 }
 #about .about-img {
   background: url("../img/logo.jpg") no-repeat center center/cover;
+}
+
+/* section:contact */
+#contact {
+  display: flex;
+}
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+#contact .contact-form label {
+  display: block;
+}
+#contact .contact-form input,
+#contact,
+contact-form texarea {
+  width: 100%;
+  padding: 0.5rem;
 }
