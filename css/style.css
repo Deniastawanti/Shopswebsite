@@ -87,7 +87,7 @@ p {
   background: #333;
   color: #fff;
 }
-.bg-primay {
+.bg-primary {
   background: #93cb52;
   color: #fff;
 }
@@ -177,8 +177,7 @@ p {
   display: block;
 }
 #contact .contact-form input,
-#contact,
-contact-form texarea {
+#contact .contact-form texarea {
   width: 100%;
   padding: 0.5rem;
 }
