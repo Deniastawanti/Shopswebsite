@@ -30,6 +30,14 @@ p {
 .text-primary {
   color: #7ab436;
 }
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
 .l-heading {
   font-size: 3rem;
   margin-bottom: 0, 75rem;
@@ -52,6 +60,16 @@ p {
 }
 .py-3 {
   padding: 3rem 0;
+}
+
+.py-1 {
+  padding: 1.5rem;
+}
+.py-2 {
+  padding: 2rem;
+}
+.py-3 {
+  padding: 3rem;
 }
 
 .btn {
@@ -128,4 +146,15 @@ p {
   flex: 1;
   text-align: center;
   padding: 1rem;
+}
+
+/* section:about */
+#about {
+  display: flex;
+}
+#about div {
+  flex: 1;
+}
+#about .about-img {
+  background: url("../img/logo.jpg") no-repeat center center/cover;
 }
