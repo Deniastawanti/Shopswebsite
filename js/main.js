@@ -1,5 +1,5 @@
 // initialize and add the map
-function initMAp() {
+function initMap() {
   // your latitude & longtitude location
   const loc = { lat: -28.389722, lng: 153.566334 };
   // centered map on location
