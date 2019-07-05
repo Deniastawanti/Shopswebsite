@@ -38,6 +38,10 @@ p {
   background: #333;
   color: #fff;
 }
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
 .l-heading {
   font-size: 3rem;
   margin-bottom: 0, 75rem;
@@ -62,13 +66,13 @@ p {
   padding: 3rem 0;
 }
 
-.py-1 {
+.p-1 {
   padding: 1.5rem;
 }
-.py-2 {
+.p-2 {
   padding: 2rem;
 }
-.py-3 {
+.p-3 {
   padding: 3rem;
 }
 
@@ -87,10 +91,7 @@ p {
   background: #333;
   color: #fff;
 }
-.bg-primary {
-  background: #93cb52;
-  color: #fff;
-}
+
 /* navbar */
 #navbar {
   display: flex;
@@ -132,11 +133,11 @@ p {
   padding: 0 2 rem;
   /* overlay */
   position: absolute;
-  top: 60px;
+  top: 65px;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #333 (0, 0, 0, 5);
+  background-color: #333 (0, 0, 0, 4);
 }
 /* section-Promo */
 
@@ -161,6 +162,15 @@ p {
 #about .about-img {
   background: url("../img/logo.jpg") no-repeat center center/cover;
 }
+/* section: clients */
+#clients .items {
+  display: flex;
+}
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
 
 /* section:contact */
 #contact {
@@ -177,7 +187,7 @@ p {
   display: block;
 }
 #contact .contact-form input,
-#contact .contact-form texarea {
+#contact .contact-form textarea {
   width: 100%;
   padding: 0.5rem;
 }
