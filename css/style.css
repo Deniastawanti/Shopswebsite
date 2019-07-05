@@ -49,7 +49,7 @@ p {
 }
 .m-heading {
   font-size: 2rem;
-  margin-bottom: 0, 75rem;
+  margin-bottom: 0, 60rem;
   line-height: 1.1;
 }
 .lead {
@@ -133,7 +133,7 @@ p {
   padding: 0 2 rem;
   /* overlay */
   position: absolute;
-  top: 65px;
+  top: 60px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -158,6 +158,7 @@ p {
 }
 #about div {
   flex: 1;
+  flex-basis: 50%;
 }
 #about .about-img {
   background: url("../img/logo.jpg") no-repeat center center/cover;
@@ -179,6 +180,7 @@ p {
 #contact .map,
 #contact .contact-form {
   flex: 1;
+  flex-basis: 50%;
 }
 #contact .contact-form .form-group {
   margin: 0.75rem;
