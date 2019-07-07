@@ -21,7 +21,7 @@ p {
 .container {
   max-width: 1100px;
   margin: auto;
-  padding: 0 2rem;
+  padding: 0rem 2rem;
   overflow: hidden;
 }
 .text-center {
@@ -181,10 +181,10 @@ p {
 #contact .map,
 #contact .contact-form {
   flex: 1;
-  /* flex-basis: 50%; */
+  flex-basis: 50%;
 }
 #contact .contact-form .form-group {
-  margin: 0.75rem;
+  /* margin: 0.75rem; */
 }
 #contact .contact-form label {
   display: block;
