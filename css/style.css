@@ -140,7 +140,7 @@ p {
   bottom: 0;
   background-color: #333 (0, 0, 0, 4);
 }
-/* section-whta we have  */
+/* section-what we have  */
 
 #what .items {
   display: flex;
@@ -159,7 +159,6 @@ p {
 }
 #about div {
   flex: 1;
-  /* flex-basis: 50%; */
 }
 #about .about-img {
   background: url("../img/logo.jpg") no-repeat center center/cover;
@@ -181,10 +180,9 @@ p {
 #contact .map,
 #contact .contact-form {
   flex: 1;
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
 }
 #contact .contact-form .form-group {
-  /* margin: 0.75rem; */
 }
 #contact .contact-form label {
   display: block;
@@ -194,3 +192,5 @@ p {
   width: 100%;
   padding: 0.5rem;
 }
+
+/* section:footer */
