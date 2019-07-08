@@ -182,8 +182,9 @@ p {
   flex: 1;
   /* flex-basis: 50%; */
 }
-#contact .contact-form .form-group {
-}
+/* #contact .contact-form .form-group {
+  margin: 0 0.6rem:
+} */
 #contact .contact-form label {
   display: block;
 }
