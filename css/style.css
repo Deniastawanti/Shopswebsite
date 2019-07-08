@@ -59,6 +59,7 @@ p {
 }
 .py-1 {
   padding: 1.5rem 0;
+  display: flex;
 }
 .py-2 {
   padding: 2rem 0;
@@ -163,6 +164,7 @@ p {
 #about .about-img {
   background: url("../img/logo.jpg") no-repeat center center/cover;
 }
+
 /* section: clients */
 #clients .items {
   display: flex;
