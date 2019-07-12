@@ -4,17 +4,17 @@
 }
 
 /*  Align icon to left  */
-#what .items .item {
+ /* #what .items .item {
   display: flex;
   text-align: left;
-}
+}  */
 
 /* Posistion icon */
 #what .items .item i {
   margin-right: 1.3rem;
   align-self: center;
   margin-bottom: 0;
-}
+  }
 
 /* Smartphones */
 @media (max-width: 500px) {

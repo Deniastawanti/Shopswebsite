@@ -148,6 +148,9 @@ p {
   display: flex;
   padding: 1rem;
 }
+/* #what item h3 {
+  min-width: 7.5rem;
+} */
 
 #what .items .item {
   flex: 1;
