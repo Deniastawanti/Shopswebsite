@@ -161,6 +161,7 @@ p {
 }
 #about div {
   flex: 1;
+  flex-basis: 50%;
 }
 #about .about-img {
   background: url("../img/logo.jpg") no-repeat center center/cover;
@@ -183,7 +184,7 @@ p {
 #contact .map,
 #contact .contact-form {
   flex: 1;
-  /* flex-basis: 50%; */
+  flex-basis: 50%;
 }
 /* #contact .contact-form .form-group {
   margin: 0 0.6rem:
