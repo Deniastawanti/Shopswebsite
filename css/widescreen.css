@@ -5,11 +5,11 @@
 } */
 
 /* Posistion icon */
-/* #what .items .item i {
+#what .items .item i {
   margin-right: 1.3rem;
   align-self: center;
   margin-bottom: 0;
-} */
-#contact .map {
+}
+#contact .maps {
   flex: 2;
 }
