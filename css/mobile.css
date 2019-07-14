@@ -45,9 +45,9 @@
   #client .items div:last-child {
     display: none;
   }
-  /* #contact {
-    flex-direction: column;
-  } */
+  #contact {
+    flex-flow: row-wrap;
+  }
  
   #contact .map {
     height: 200px;
