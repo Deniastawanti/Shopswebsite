@@ -46,7 +46,9 @@
     display: none;
   }
   #contact {
-    flex-flow: row-wrap;
+    flex-direction: column; 
+    /* flex-flow: row wrap; */
+   
   }
  
   #contact .map {
