@@ -185,6 +185,7 @@ p {
   display: block;
   margin: auto;
   width: 60%;
+  min-height: 30%;
 }
 
 /* section:contact */
