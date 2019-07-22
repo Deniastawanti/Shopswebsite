@@ -47,14 +47,11 @@
   }
   #contact {
     flex-direction: column;
-    /* flex-flow: row wrap; */
   }
 
   #contact .map {
     height: 200px;
     border-top: 3px solid #333;
-    /* display: flex;
-    flex-wrap: wrap-reverse; */
   }
 
   @media (max-height: 568px) {
